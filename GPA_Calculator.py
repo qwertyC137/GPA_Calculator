@@ -15,6 +15,7 @@ t = s.get(grade).text  # 提取网页源代码
 
 targets = re.findall('10%.*?<td>(.*?)<.*?">.*?<.*?">(.*?)<.*?">(.*?)\s*?<', t, re.S)  # (name, credits, grade)
 
+sum = 0.0
 target = 0.0
 
 for tuple in targets:
