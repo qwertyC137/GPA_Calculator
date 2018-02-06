@@ -14,6 +14,7 @@ s.post(login, data = data)  # 模拟登陆
 t = s.get(grade).text  # 提取网页源代码
 
 targets = re.findall('10%.*?<td>(.*?)<.*?">.*?<.*?">(.*?)<.*?">(.*?)\s*?<', t, re.S)  # (name, credits, grade)
+name = re.search('姓名.*?">(.*?)<', t, re.S).group(1)
 
 sum = 0.0
 target = 0.0
@@ -25,4 +26,4 @@ for tuple in targets:
 
 target /= sum
 
-print ('学分绩（百分制）：', target)
+print (name, ':', target)
