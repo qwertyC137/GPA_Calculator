@@ -10,7 +10,7 @@
 
 用requests库模拟登陆
 
-直接在 <http://eamis.nankai.edu.cn/eams/myPlanCompl.action> 上爬取学分和成绩
+直接在 <http://eamis.nankai.edu.cn/eams/myPlanCompl.action> 上爬取网站源码，用正则表达式筛选出学分和成绩
 
 计算出学分绩（百分制）
 
