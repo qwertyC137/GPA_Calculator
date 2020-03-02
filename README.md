@@ -1,6 +1,6 @@
 # GPA_Calculator
 
-自制 南开大学GPA计算器
+自制 南开大学GPA计算器 / 南开大学学分绩计算工具
 
 联系我：mailto:liuweike@nankai.edu.cn
 
