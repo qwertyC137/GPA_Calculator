@@ -18,4 +18,6 @@
 
 2 安装 requests 包
 
-3 在命令行中，跳转到 GPA_Calculator.py 的所在目录，输入 `python GPA_calculater.py`即可显示学分绩
+3 在命令行中，跳转到 GPA_Calculator.py 的所在目录，输入 `python GPA_calculater.py`
+
+4 即可显示以（‘`课程名`,'`学分`','`成绩`')为格式的列表，以及平均学分绩
