@@ -1,7 +1,8 @@
 # GPA_Calculator
 
 自制 南开大学GPA计算器
-mailto:liuweike@nankai.edu.cn
+
+联系我：mailto:liuweike@nankai.edu.cn
 
 ## 原理
 
